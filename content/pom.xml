@@ -58,7 +58,7 @@
                         <embedded>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>cp-app-patterns-bundle</artifactId>
-                            <target>/apps/computepatterns/apppatterns/install</target>
+                            <target>/apps/compute-patterns/install</target>
                         </embedded>
                     </embeddeds>
                     <targetURL>http://${crx.host}:${crx.port}/crx/packmgr/service.jsp</targetURL>
