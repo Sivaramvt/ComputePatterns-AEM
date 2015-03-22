@@ -17,6 +17,7 @@ import org.slf4j.LoggerFactory;
  * OSGi container expects corresponding configuration object (osgi:Config node) to become satisfied. 
  * If we define the sling:OsgiConfig node under 'config.publish' folder, we could get this component 
  * active in 'publish' only run mode and 'unsatisfied' in all other run modes.
+ * Details: http://www.computepatterns.com/43/osgi-component-in-aem-that-is-active-only-in-specific-run-mode-say-publish/
  */
 public class RunmodeSpecificComponent{
   private static final Logger log = LoggerFactory.getLogger(RunmodeSpecificComponent.class);
