@@ -9,6 +9,9 @@ import org.apache.felix.scr.annotations.Reference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Demonstration of osgi Component Vs Service. More details: http://www.computepatterns.com/76/osgi-component-vs-service-in-aem/
+ **/
 @Component(
     label = "Compute Patterns - Weather details printing osgi component.",
     description = "Sample OSGi component that uses thread and a OSGi service to print weather details in log.",
