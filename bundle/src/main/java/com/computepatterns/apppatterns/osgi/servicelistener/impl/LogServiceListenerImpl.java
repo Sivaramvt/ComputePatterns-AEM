@@ -12,8 +12,8 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Service Listener pattern  implementation - Sample implementation for demonstrating Service listener pattern.
  * This service listens for OSGi services which implement LogService interface.
- * When a LogService is available, Service Component Runtime (SCR) calls the bind method.
- * In the same manner, when the service goes down, unbind method is called.
+ * When a LogService is available, Service Component Runtime (SCR) calls the bind method and when it goes unavailable,
+ * unbind method will be called.
  */
 @Component(label = "Compute Patterns - Log Service Listener",
         description = "Sample service listener pattern demonstration.")
