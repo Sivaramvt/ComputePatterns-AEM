@@ -21,6 +21,8 @@ import java.io.IOException;
  * OOTB {@link com.day.cq.dam.core.impl.servlet.AssetDownloadServlet}'s OSGi properties have been copied down to this custom servlet with the
  * resource type pointed to dam:Asset to get preference over the OOTB servlet in the servlet resolution process implemented in {@link org.apache.sling.servlets.resolver.internal.SlingServletResolver}.
  * This servlet accepts download requests for single asset. In case of multiple asset download, it doesn't accept the request.
+ *
+ * More on this, please visit {@link ComputePatterns.com http://www.computepatterns.com/153/overriding-out-of-the-box-servlet-in-aem-sling/}
  */
 @Component(metatype = false)
 @Service
